@@ -1,0 +1,324 @@
+---
+crystal-lang.org/reference:
+  file-extensions: [md]
+  ignored:
+    - README.md
+  indexed:
+    - docs/**/*.md
+
+crystal-lang.org/web:
+  file-extensions: [md]
+  ignored:
+    - index.md
+    - README.md
+    - _events/*.md
+    - _pages/404.md
+    - _pages/blog/*.md
+    - _pages/community/*.md
+    - _pages/install.md
+    - _pages/install/*.md
+    - _pages/media.md
+    - _pages/newsletter.md
+    - _pages/releases.md
+    - _pages/sponsors.md
+    - _pages/style-guide.md
+    - _pages/success-stories.md
+    - _pages/summerofcode.md
+    - _pages/team.md
+    - _pages/used_in_prod.md
+    - _style_guide/**/*.md
+    - scripts/README.md
+  indexed:
+    - _pages/learning.md
+    - _posts/**/*.md
+    - _releases/*.md
+    - _samples/*.md
+
+developer.mozilla.org/content:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+    - tests/**/*.md
+  indexed:
+    - files/en-us/**/*.md
+
+developer.mozilla.org/curriculum:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+  indexed:
+    - curriculum/**/*.md
+
+developer.mozilla.org/translated:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+    - docs/**/*.md
+    - files/es/**/*.md
+    - files/fr/**/*.md
+    - files/ja/**/*.md
+    - files/ko/**/*.md
+    - files/pt-br/**/*.md
+    - files/zh-cn/**/*.md
+    - files/zh-tw/**/*.md
+  indexed:
+    - files/ru/**/*.md
+
+docs.docker.com:
+  file-extensions: [md, yaml]
+  ignored:
+    - "*.md"
+    - compose.yaml
+    - _vendor/github.com/docker/buildx/**/*.md
+    - _vendor/github.com/docker/cli/docs/extend/*.md
+    - _vendor/github.com/docker/compose/v2/docs/reference/*.yaml
+    - _vendor/github.com/docker/scout-cli/docs/*.yaml
+    - _vendor/github.com/moby/buildkit/docs/buildkitd.toml.md
+    - _vendor/github.com/moby/moby/docs/api/*.md
+    - _vendor/github.com/moby/moby/docs/api/*.yaml
+    - content/**/_index.md
+    - content/contribute/**/*.md
+    - content/guides/language/cpp/*.md
+    - content/guides/language/dotnet/*.md
+    - content/guides/language/golang/*.md
+    - content/guides/language/java/*.md
+    - content/guides/language/php/*.md
+    - content/guides/language/python/*.md
+    - content/guides/language/r/*.md
+    - content/guides/language/rust/*.md
+    - content/guides/use-case/genai-pdf-bot/*.md
+    - content/guides/use-case/genai-video-bot/*.md
+    - content/guides/use-case/jupyter.md
+    - content/guides/use-case/localstack.md
+    - content/guides/use-case/nlp/*.md
+    - content/guides/use-case/rag-ollama/*.md
+    - content/guides/use-case/tensorflowjs.md
+    - content/manuals/accounts/*.md
+    - content/manuals/admin/**/*.md
+    - content/manuals/billing/**/*.md
+    - content/manuals/build-cloud/*.md
+    - content/manuals/build/bake/*.md
+    - content/manuals/build/builders/**/*.md
+    - content/manuals/build/buildkit/*.md
+    - content/manuals/build/cache/backends/azblob.md
+    - content/manuals/build/cache/backends/gha.md
+    - content/manuals/build/cache/backends/inline.md
+    - content/manuals/build/cache/backends/registry.md
+    - content/manuals/build/cache/backends/s3.md
+    - content/manuals/build/exporters/*.md
+    - content/manuals/build/release-notes.md
+    - content/manuals/cloud/*.md
+    - content/manuals/copilot/*.md
+    - content/manuals/desktop/**/*.md
+    - content/manuals/extensions/**/*.md
+    - content/manuals/registry.md
+    - content/manuals/release-lifecycle.md
+    - content/manuals/security/faqs/single-sign-on/*.md
+    - content/manuals/security/for-admins/**/*.md
+    - content/manuals/security/for-developers/**/*.md
+    - content/manuals/subscription/**/*.md
+    - content/manuals/support.md
+    - content/manuals/trusted-content/**/*.md
+    - content/reference/api/**/*.md
+    - content/reference/api/**/*.yaml
+    - content/reference/cli/**/*.md
+    - content/reference/glossary.md
+    - content/samples/*.md
+    - content/search.md
+    - data/**/*.yaml
+    - hugo.yaml
+    - i18n/*.yaml
+    - layouts/**/*.md
+  indexed:
+    - _vendor/github.com/docker/cli/docs/deprecated.md
+    - _vendor/github.com/docker/cli/docs/reference/*.md
+    - _vendor/github.com/docker/compose/v2/docs/reference/*.md
+    - _vendor/github.com/docker/scout-cli/docs/*.md
+    - _vendor/github.com/moby/buildkit/docs/attestations/*.md
+    - _vendor/github.com/moby/buildkit/frontend/dockerfile/docs/reference.md
+    - _vendor/github.com/moby/buildkit/frontend/dockerfile/docs/rules/*.md
+
+    - content/get-started/**/*.md
+
+    - content/guides/resources.md
+    - content/guides/deployment-orchestration/*.md
+    - content/guides/language/nodejs/*.md
+    - content/guides/language/ruby/*.md
+    - content/guides/use-case/databases.md
+    - content/guides/use-case/kafka.md
+
+    - content/includes/**/*.md
+
+    - content/learning-paths/*.md
+
+    - content/manuals/build/checks.md
+    - content/manuals/build/building/*.md
+    - content/manuals/build/cache/*.md
+    - content/manuals/build/cache/backends/_index.md
+    - content/manuals/build/cache/backends/local.md
+    - content/manuals/build/ci/**/*.md
+    - content/manuals/build/concepts/*.md
+    - content/manuals/build/debug/*.md
+    - content/manuals/build/metadata/**/*.md
+    - content/manuals/compose/**/*.md
+    - content/manuals/docker-hub/**/*.md
+    - content/manuals/engine/**/*.md
+    - content/manuals/scout/**/*.md
+    - content/manuals/security/security-announcements.md
+    - content/manuals/security/faqs/*.md
+
+    - content/reference/compose-file/*.md
+
+    - data/glossary.yaml
+
+git-flight-rules:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+  indexed:
+    - README.md
+    - README_ru.md
+
+git-tips:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+  indexed:
+    - README.md
+
+pg-files:
+  file-extensions: [pdf]
+  ignored:
+    - about/**/*.pdf
+  indexed:
+    - "**/*.pdf"
+
+pg-releases:
+  file-extensions: [md]
+  ignored:
+    - releases/**/*.md
+    - update_releases/**/*.md
+  indexed:
+    - releases/**/release.ru.md
+
+postgresql:
+  file-extensions: [sgml]
+  ignored:
+    - doc/src/sgml/ref/*.sgml
+  indexed:
+    - doc/src/sgml/*.sgml
+
+progit/en:
+  file-extensions: [asc]
+  ignored:
+    - index.asc
+    - LICENSE.asc
+    - progit.asc
+    - README.asc
+    - TRANSLATION_NOTES.asc
+    - book/contributors.asc
+    - book/dedication.asc
+    - book/license.asc
+    - book/toc.asc
+  indexed:
+    - "**/*.asc"
+
+progit/ru:
+  file-extensions: [asc]
+  ignored:
+    - attributes.asc
+    - index.asc
+    - LICENSE.asc
+    - progit.asc
+    - README.asc
+    - TRANSLATION_NOTES.asc
+    - book/contributors.asc
+    - book/dedication.asc
+    - book/license.asc
+  indexed:
+    - "**/*.asc"
+
+rails:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+    - guides/README.md
+    - railties/RDOC_MAIN.md
+    - tools/**/*.md
+  indexed:
+    - "**/CHANGELOG.md"
+    - actioncable/*.md
+    - actionmailbox/*.md
+    - actionmailer/*.md
+    - actionpack/*.md
+    - actiontext/*.md
+    - actionview/*.md
+    - activejob/*.md
+    - activemodel/*.md
+    - activerecord/*.md
+    - activestorage/*.md
+    - activesupport/*.md
+    - guides/source/*.md
+
+ruby:
+  file-extensions: [md, rdoc]
+  ignored:
+    - "*.md"
+    - benchmark/*.md
+    - ext/**/*.md
+    - sample/**/*.md
+    - sample/**/*.rdoc
+    - spec/**/*.md
+    - test/**/*.rdoc
+    - tool/**/*.md
+    - wasm/*.md
+    - yjit/**/*.md
+  indexed:
+    - doc/**/*.md
+    - doc/**/*.rdoc
+    - NEWS.md
+
+ruby-lang.org:
+  file-extensions: [md]
+  ignored:
+    - "*.md"
+    - _includes/*.md
+    - admin/*.md
+    - bg/**/*.md
+    - de/**/*.md
+    - en/downloads/**/*.md
+    - en/news/**/*.md
+    - es/**/*.md
+    - fr/**/*.md
+    - id/**/*.md
+    - it/**/*.md
+    - ja/**/*.md
+    - ko/**/*.md
+    - pl/**/*.md
+    - pt/**/*.md
+    - ru/downloads/**/*.md
+    - ru/news/**/*.md
+    - tr/**/*.md
+    - vi/**/*.md
+    - zh_cn/**/*.md
+    - zh_tw/**/*.md
+  indexed:
+    - en/**/*.md
+    - ru/**/*.md
+
+rubyonrails.org:
+  file-extensions: [html, markdown]
+  ignored:
+    - category/*
+    - doctrine/*
+    - world/**/*
+  indexed:
+    - _includes/**/*.html
+    - _layouts/**/*.html
+    - _pages/*.html
+    - _posts/*.markdown
+    - 404.html
+    - blog/*.html
+    - doctrine/index.html
+    - doctrine/ru.html
+    - index.html

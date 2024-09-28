@@ -1,0 +1,68 @@
+[submodule "crystal-lang.org/reference"]
+	path = crystal-lang.org/reference
+	url = https://github.com/crystal-lang/crystal-book.git
+	branch = master
+[submodule "crystal-lang.org/web"]
+	path = crystal-lang.org/web
+	url = https://github.com/crystal-lang/crystal-website.git
+	branch = master
+[submodule "developer.mozilla.org/content"]
+	path = developer.mozilla.org/content
+	url = https://github.com/mdn/content.git
+	branch = main
+[submodule "developer.mozilla.org/curriculum"]
+	path = developer.mozilla.org/curriculum
+	url = https://github.com/mdn/curriculum.git
+	branch = main
+[submodule "developer.mozilla.org/translated"]
+	path = developer.mozilla.org/translated
+	url = https://github.com/mdn/translated-content.git
+	branch = main
+[submodule "docs.docker.com"]
+	path = docs.docker.com
+	url = https://github.com/docker/docs.git
+	branch = main
+[submodule "git-flight-rules"]
+	path = git-flight-rules
+	url = https://github.com/k88hudson/git-flight-rules.git
+	branch = master
+[submodule "git-tips"]
+	path = git-tips
+	url = https://github.com/git-tips/tips.git
+	branch = master
+[submodule "pg-files"]
+	path = pg-files
+	url = https://github.com/postgres/pgweb-static.git
+	branch = master
+[submodule "pg-releases"]
+	path = pg-releases
+	url = https://git.postgresql.org/git/press.git
+	branch = master
+[submodule "postgresql"]
+	path = postgresql
+	url = https://github.com/postgres/postgres.git
+	branch = master
+[submodule "progit/en"]
+	path = progit/en
+	url = https://github.com/progit/progit2.git
+	branch = main
+[submodule "progit/ru"]
+	path = progit/ru
+	url = https://github.com/progit/progit2-ru.git
+	branch = master
+[submodule "rails"]
+	path = rails
+	url = https://github.com/rails/rails.git
+	branch = main
+[submodule "ruby"]
+	path = ruby
+	url = git@github.com:ruby/ruby.git
+	branch = master
+[submodule "rubyonrails.org"]
+	path = rubyonrails.org
+	url = https://github.com/rails/website.git
+	branch = main
+[submodule "ruby-lang.org"]
+	path = ruby-lang.org
+	url = https://github.com/ruby/www.ruby-lang.org.git
+	branch = master
