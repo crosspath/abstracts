@@ -66,3 +66,15 @@
 	path = ruby-lang.org
 	url = https://github.com/ruby/www.ruby-lang.org.git
 	branch = master
+[submodule "svelte"]
+	path = svelte
+	url = https://github.com/sveltejs/svelte.git
+	branch = main
+[submodule "svelte-kit"]
+	path = svelte-kit
+	url = https://github.com/sveltejs/kit.git
+	branch = main
+[submodule "svelte-cli"]
+	path = svelte-cli
+	url = https://github.com/sveltejs/cli.git
+	branch = main
